@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Qahiri&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&family=Lobster&family=Qahiri&family=Zen+Tokyo+Zoo&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Computer */
+@media (min-width:992px) {
+ 
+    .a {
+        border: 2px solid blue;    
+        float: left;
+        background-color: black;
+        color: white;
+        width: 25%;
+        font-size: 20px;
+        margin-left: 40px;
+        font-family: 'Lobster', cursive;
+        font-family: 'Qahiri', sans-serif;
+        font-family: 'Zen Tokyo Zoo', cursive;
+        height: 300px;
+        overflow: scroll;
+    }
+
+    p {
+        margin-left: 70%;
+        border: 2px solid chartreuse;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+        background-color: white;
+    }
+
+    .box {
+        border: 10px solid yellow;
+        width: 100%;
+        height: 300px;
+        background-image: url('images/nature-image.jpg');
+        background-size: contain;
+        float: right;
+    }
+
+    .box-1 {
+        border: 10px solid yellow;
+        width: 100%;
+        height: 300px;
+        background-image: url('images/nature-image-2.jpg');
+        background-size: contain;
+        float: right;
+    }
+
+    .box-2 {
+        border: 10px solid yellow;
+        width: 100%;
+        height: 300px;
+        background-image: url('images/nature-image-3.jpg');
+        background-size: contain;
+        float: right;
+    }
+}
+
+/* Tablet */
+@media (max-width:991px) and (min-width:768px) {
+    p {
+        margin-left: 70%;
+        border: 2px solid chartreuse;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+        background-color: white;
+        font-family: 'Lobster', cursive;
+        font-family: 'Qahiri', sans-serif;
+        font-family: 'Zen Tokyo Zoo', cursive;
+    }
+    
+    .a {
+        border: 2px solid blue;    
+        float: left;
+        background-color: black;
+        color: white;
+        width: 41.65%;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        height: 200px;
+        overflow: scroll;
+    }
+
+    .c {
+        border: 2px solid blue;    
+        float: left;
+        background-color: black;
+        color: white;
+        width: 85.28%;
+        font-size: 15px;
+        margin-left: 20px;        
+        height: 200px;
+        overflow: scroll;
+    }
+
+    /* .b {
+        border: 2px solid red;
+        background-color: gray;
+        color: black;
+        width: 41.65%;
+    }     */
+
+    .box {
+        border: 10px solid yellow;
+        width: 265px;
+        height: 175px;
+        background-image: url('images/nature-image.jpg');
+        background-size: contain;
+        float: right;
+    }
+
+    .box-1 {
+        border: 10px solid yellow;
+        width: 265px;
+        height: 175px;
+        background-image: url('images/nature-image-2.jpg');
+        background-size: contain;
+        float: right;
+    }
+
+    .box-2 {
+        border: 10px solid yellow;
+        width: 265px;
+        height: 175px;
+        background-image: url('images/nature-image-3.jpg');
+        background-size: contain;
+        float: right;
+    }
+}
+
+/* Mobile */
+@media (max-width:767px) {
+    p {
+        margin-left: 70%;
+        border: 2px solid chartreuse;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+        background-color: white;
+    }
+    
+    .a {
+        border: 2px solid blue;    
+        float: left;
+        background-color: black;
+        color: white;
+        width: 80%;
+        font-size: 10px;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        font-family: 'Lobster', cursive;
+        font-family: 'Qahiri', sans-serif;
+        font-family: 'Zen Tokyo Zoo', cursive;
+        height: 200px;
+        overflow: scroll;
+    }
+
+    .box {
+        border: 10px solid yellow;
+        width: 200px;
+        height: 135px;
+        background-image: url('images/nature-image.jpg');
+        background-size: contain;
+        float: right;
+    }
+
+    .box-1 {
+        border: 10px solid yellow;
+        width: 200px;
+        height: 135px;
+        background-image: url('images/nature-image-2.jpg');
+        background-size: contain;
+        float: right;
+    }
+
+    .box-2 {
+        border: 10px solid yellow;
+        width: 200px;
+        height: 130px;
+        background-image: url('images/nature-image-3.jpg');
+        background-size: contain;
+        float: right;
+    }
+}
